@@ -37,4 +37,4 @@ RUN echo "zh_TW.UTF-8 UTF-8" > /etc/locale.gen \
 
 VOLUME ["/tftpboot", "/home/partimag"]
 EXPOSE 68/udp 111/udp 2049/tcp
-CMD ["drbl-all-service start"]
+CMD ["drbl-all-service", "start"]
